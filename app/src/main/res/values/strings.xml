@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Storage</string>
+    <string name="dedicated_storage_space">专属存储空间</string>
+    <string name="get_file_dirs">获取fileDirs地址</string>
+    <string name="create_new_file">创建新文件</string>
+    <string name="create_cached_file">创建缓存文件文件</string>
+</resources>
