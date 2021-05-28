@@ -7,6 +7,10 @@
     <string name="write_words_to_file">向文件中写入文字</string>
     <string name="read_words_from_file">从文件中读取文字</string>
     <string name="get_allocatable_bytes">查询可用空间</string>
-    <string name="out_dedicated_storage_space">外部专属存储空间</string>
+    <string name="external_dedicated_storage_space">外部专属存储空间</string>
+    <string name="is_external_storage_can_use">外部存储空间是否可用</string>
+    <string name="get_external_storage_path">获取外部存储空间路径</string>
+    <string name="create_persistent_file">创建持久文件</string>
+    <string name="create_cache_file">创建缓存文件</string>
 
 </resources>

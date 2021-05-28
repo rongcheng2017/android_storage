@@ -24,11 +24,11 @@
             app:layout_constraintVertical_bias="0.1" />
 
         <Button
-            android:id="@+id/out_dedicated_storage_space"
+            android:id="@+id/external_dedicated_storage_space"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/inner_dedicated_storage_space"
+            android:text="@string/external_dedicated_storage_space"
             app:layout_constraintLeft_toLeftOf="parent"
 
             app:layout_constraintRight_toRightOf="parent"

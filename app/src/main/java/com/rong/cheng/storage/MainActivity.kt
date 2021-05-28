@@ -19,19 +19,19 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             )
 
         binding.innerDedicatedStorageSpace.setOnClickListener(this)
-        binding.outDedicatedStorageSpace.setOnClickListener(this)
+        binding.externalDedicatedStorageSpace.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
         when (v) {
             binding.innerDedicatedStorageSpace -> toInnerDedicatedStorageSpace()
-            binding.outDedicatedStorageSpace -> toOutDedicatedStorageSpace()
+            binding.externalDedicatedStorageSpace -> toExternalDedicatedStorageSpace()
 
         }
     }
 
-    private fun toOutDedicatedStorageSpace() {
-        startActivity(Intent(this, InnerDedicatedStorageSpaceActivity::class.java))
+    private fun toExternalDedicatedStorageSpace() {
+        startActivity(Intent(this, ExternalDedicatedStorageSpaceActivity::class.java))
     }
 
     private fun toInnerDedicatedStorageSpace() {

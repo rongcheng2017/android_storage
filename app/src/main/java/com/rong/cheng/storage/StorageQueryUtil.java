@@ -230,4 +230,24 @@ public class StorageQueryUtil {
             return -1;
         }
     }
+
+    // Checks if a volume containing external storage is available
+    // for read and write.
+    public static boolean isExternalStorageWritable() {
+        return Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED);
+    }
+
+    // Checks if a volume containing external storage is available to at least read.
+    public static boolean isExternalStorageReadable() {
+        return Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED) ||
+                Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED_READ_ONLY);
+    }
+
+    public static File getAppSpecificAlbumStorageDir(Context context, String albumName) {
+        File file = new File(context.getExternalFilesDir(Environment.DIRECTORY_PICTURES), albumName);
+        if (file != null || !file.mkdirs()) {
+            Log.e(TAG, "Directory not created");
+        }
+        return file;
+    }
 }

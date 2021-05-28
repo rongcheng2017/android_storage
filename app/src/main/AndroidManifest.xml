@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Storage">
-        <activity android:name=".OutDedicatedStorageActivity"></activity>
+        <activity android:name=".ExternalDedicatedStorageSpaceActivity"></activity>
         <activity android:name=".InnerDedicatedStorageSpaceActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
