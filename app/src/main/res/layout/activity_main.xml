@@ -13,14 +13,26 @@
         tools:context=".MainActivity">
 
         <Button
-            android:id="@+id/dedicated_storage_space"
+            android:id="@+id/inner_dedicated_storage_space"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/dedicated_storage_space"
+            android:text="@string/inner_dedicated_storage_space"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.1" />
+
+        <Button
+            android:id="@+id/out_dedicated_storage_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/inner_dedicated_storage_space"
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/inner_dedicated_storage_space"
             app:layout_constraintVertical_bias="0.1" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

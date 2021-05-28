@@ -1,7 +1,12 @@
 <resources>
     <string name="app_name">Storage</string>
-    <string name="dedicated_storage_space">专属存储空间</string>
+    <string name="inner_dedicated_storage_space">内部专属存储空间</string>
     <string name="get_file_dirs">获取fileDirs地址</string>
     <string name="create_new_file">创建新文件</string>
-    <string name="create_cached_file">创建缓存文件文件</string>
+    <string name="create_cached_file">创建缓存文件</string>
+    <string name="write_words_to_file">向文件中写入文字</string>
+    <string name="read_words_from_file">从文件中读取文字</string>
+    <string name="get_allocatable_bytes">查询可用空间</string>
+    <string name="out_dedicated_storage_space">外部专属存储空间</string>
+
 </resources>
