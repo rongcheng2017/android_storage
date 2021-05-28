@@ -12,5 +12,7 @@
     <string name="get_external_storage_path">获取外部存储空间路径</string>
     <string name="create_persistent_file">创建持久文件</string>
     <string name="create_cache_file">创建缓存文件</string>
+    <string name="write_encrypted_words">写入加密文字</string>
+    <string name="read_encrypted_words">读取加密文字</string>
 
 </resources>

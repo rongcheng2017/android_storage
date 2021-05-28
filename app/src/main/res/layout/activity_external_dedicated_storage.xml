@@ -52,6 +52,25 @@
             app:layout_constraintStart_toEndOf="@id/create_persistent_file"
             app:layout_constraintTop_toBottomOf="@id/get_external_storage_path" />
 
+        <Button
+            android:id="@+id/write_encrypted_words"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/write_encrypted_words"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/create_persistent_file" />
+
+        <Button
+            android:id="@+id/read_encrypted_words"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/read_encrypted_words"
+            app:layout_constraintStart_toEndOf="@id/create_persistent_file"
+            app:layout_constraintTop_toBottomOf="@id/create_cache_file" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/show_space"
